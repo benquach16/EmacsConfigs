@@ -18,6 +18,12 @@
 (setq-default csharp-basic-offset 2)
 (setq indent-tabs-mode t)
 (setq indent-line-function 'insert-tab)
+
+(tool-bar-mode -1)
+(scroll-bar-mode -1)
+(set-foreground-color "green")
+(set-background-color "black")
+
 ;; add the folder /emacs/ to our load path so we can quickly load libraries
 (add-to-list 'load-path "~/emacs/")
 (add-to-list 'load-path "~/.emacs.d/")
