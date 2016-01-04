@@ -16,7 +16,7 @@
 ;;(add-to-list 'semantic-default-submodes 'global-semantic-idle-scheduler-mode)
 (add-to-list 'semantic-default-submodes 'global-semantic-idle-local-symbol-highlight-mode)
 (add-to-list 'semantic-default-submodes 'global-semantic-decoration-mode)
-(add-to_list 'semantic-default-submodes 'global-semantic-stickyfunc-mode)
+(add-to-list 'semantic-default-submodes 'global-semantic-stickyfunc-mode)
 (add-to-list 'semantic-default-submodes 'global-cedet-m3-minor-mode)
 ;;Add library defintions here or in a CEDET project file
 (add-to-list 'semantic-default-submodes 'global-semantic-highlight-func-mode)
